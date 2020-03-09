@@ -1,0 +1,2 @@
+class CaseBluetoothDeviceController < ApplicationController
+end
