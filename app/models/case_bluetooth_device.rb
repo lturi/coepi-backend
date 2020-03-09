@@ -1,0 +1,2 @@
+class CaseBluetoothDevice < ApplicationRecord
+end

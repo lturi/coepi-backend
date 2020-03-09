@@ -1,0 +1,2 @@
+class ClientBluetoothDeviceController < ApplicationController
+end
