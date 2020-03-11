@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+client_begin_dts = [ "2019-03-09 10:30:00","2019-03-08 11:39:29","2019-03-09 15:42:39"]
+
+client_begin_dts.each do |client_entry|
+	Client.create(begin_dt: client_entry, last_update_dt: client_entry)
+end
